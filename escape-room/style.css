@@ -1,0 +1,84 @@
+body {
+    background: radial-gradient(circle at center, #0f172a 0%, #020617 100%);
+    color: #f8fafc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.room {
+    width: 600px;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 40px;
+    background: rgba(15, 23, 42, 0.85);
+    border: 2px solid #2563eb;
+    border-radius: 16px;
+    box-shadow: 0 0 35px rgba(37, 99, 235, 0.35);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    color: #60a5fa;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    text-shadow: 0 0 12px rgba(96, 165, 250, 0.6);
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #93c5fd;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+p {
+    color: #cbd5e1;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.button {
+    display: block;
+    width: 80%;
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 16px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #60a5fa;
+    box-shadow: 0 4px 15px rgba(29, 78, 216, 0.4);
+    transition: all 0.3s ease;
+}
+.button:hover {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    box-shadow: 0 0 25px rgba(96, 165, 250, 0.9);
+    transform: scale(1.03);
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    box-shadow: 0 0 25px rgba(96, 165, 250, 0.8);
+    transform: translateY(-3px);
+}
+.trophy-img {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    filter: drop-shadow(0 0 20px rgba(234, 179, 8, 0.6));
+    transition: transform 0.3s ease;
+}
+
+.trophy-img:hover {
+    transform: scale(1.08);
+}
